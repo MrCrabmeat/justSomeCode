@@ -1,23 +1,10 @@
-//factory function
-function createCircle(radius) {
-    return {
-        radius,
-        draw: function() {
-            console.log('draw');
-        }
-    };
 
-}
-const circle = createCircle(1);
-
-//constructor function
 function Circle(radius) {
     this.radius = radius;
-    this.draw = function() {
-        console.log('draw');
-    }
-}
-const another = new Circle(1);
+    this.draw = function () {console.log("draw")}}
+
+const circle = new Circle(10);
+
 
 //Object-oriented Programming in JavaScript: Made Super Simple | Mosh
-    //22:00 minutes in
+    //37:00 minutes in
