@@ -1,5 +1,8 @@
 import random, time
 
+from SortingAlgorithmsUI import thelist
+
+
 class Sort:
     def __init__(self, thelist):
         self.thelist = thelist.copy()
@@ -108,8 +111,26 @@ class BogoSort(Sort):
         return self.thelist
 
 
-class quicksort(Sort):
-   def __init__(self, thelist):
-       self.thelist = thelist.copy()
-       print("not ready yet sorry")
-       
+class QuickSort(Sort):
+    def __init__(self, thelist):
+        self.thelist = thelist.copy()
+
+    def quickSort(self, rightindex, leftindex):
+        medOfList = len(self.thelist)//2 #finds int median of the list
+        pivot = int(self.thelist[medOfList])
+        self.thelist.pop(self.thelist[medOfList])
+        # remove the pivot then append it after putting the values less than pivot on the left,
+        # and values larger on the right.
+        pivotPlacement = 0
+        for leftindex in range(self.thelist):
+            right = leftindex + 1
+            if self.thelist[leftindex] <= self.thelist[rightindex]:
+                if self.thelist[leftindex] < pivot:
+                    pivotPlacement += 1
+                self.thelist[leftindex], self.thelist[rightindex] = self.thelist[rightindex], self.thelist[leftindex]
+
+        self.thelist.insert(pivotPlacement, pivot)
+        # inserts the pivot value at the point where the numbers to the left are less than,
+        # and the numbers to the right are greater, without overriding any of the elements.
+
+
