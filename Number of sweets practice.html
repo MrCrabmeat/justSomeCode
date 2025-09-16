@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Sweets per Bag Checker</title>
+</head>
+<body>
+    <script id="InputSweet">
+        function InputSweet(SweetCount) {
+            SweetCount = document.getElementById("how many sweets? ").value;
+            return parseInt(SweetCount);}
+    </script>
+    <script id="InputBag">
+        function InputBag(BagCount) {
+            BagCount = document.getElementById("how many bags? ").value;
+            return parseInt(BagCount);}
+    </script>
+    <input id="how many bags? " type="number" placeholder="How many bags? ">
+    <input id="how many sweets? " type="number" placeholder="How many sweets? ">
+    <button onclick="DoesItWork()">How many bags?</button>
+    <script>
+        function DoesItWork() {
+            let SweetCount = InputSweet();
+            let BagCount = InputBag();
+            if (SweetCount < BagCount){
+                document.getElementById("result").innerHTML = "There are too many bags";}
+            else {
+                const SweetsPerBag = SweetCount / BagCount;
+                if (SweetsPerBag % 2 === 1) {
+                    document.getElementById("result").innerHTML = SweetsPerBag.toString();
+                }
+                else if (SweetsPerBag % 2 === 0) {
+                    document.getElementById("result").innerHTML = "You can't put an even number of sweets in each bag";
+                }
+            }
+
+        }
+    </script>
+    <div id="result"></div>
+</body>
+</html>
