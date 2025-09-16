@@ -29,14 +29,21 @@
                 const SweetsPerBag = SweetCount / BagCount;
                 if (SweetsPerBag % 2 === 1) {
                     document.getElementById("result").innerHTML = SweetsPerBag.toString();
+                    document.getElementById("verdict").innerHTML = "You can put an odd number of sweets in each one.";
                 }
                 else if (SweetsPerBag % 2 === 0) {
-                    document.getElementById("result").innerHTML = "You can't put an even number of sweets in each bag";
+                    document.getElementById("result").innerHTML = SweetsPerBag.toString();
+                    document.getElementById("verdict").innerHTML = "You can't put an odd number of sweets in each bag.";
+                }
+                else if (SweetsPerBag % 1 !== 1) {
+                    document.getElementById("result").innerHTML = SweetsPerBag.toString();
+                    document.getElementById("verdict").innerHTML = "there will be a left over sweet."
                 }
             }
 
         }
     </script>
     <div id="result"></div>
+    <div id="verdict"></div>
 </body>
 </html>
