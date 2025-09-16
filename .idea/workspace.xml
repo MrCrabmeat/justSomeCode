@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48caa393-4fc7-4ce7-b83e-cb353bb82d6a" name="Changes" comment="Made a practice website" />
+    <list default="true" id="48caa393-4fc7-4ce7-b83e-cb353bb82d6a" name="Changes" comment="Made a practice website">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Number of sweets practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/Number of sweets practice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SweetsStyling.css" beforeDir="false" afterPath="$PROJECT_DIR$/SweetsStyling.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +19,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -60,6 +65,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,7 +109,7 @@
       <workItem from="1757368828552" duration="204000" />
       <workItem from="1757704549030" duration="1333000" />
       <workItem from="1758013039909" duration="1660000" />
-      <workItem from="1758017074364" duration="16658000" />
+      <workItem from="1758017074364" duration="21046000" />
     </task>
     <task id="LOCAL-00001" summary="begun quicksort">
       <option name="closed" value="true" />
@@ -137,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758045754096</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Made a practice website">
+      <option name="closed" value="true" />
+      <created>1758045865757</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758045865757</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

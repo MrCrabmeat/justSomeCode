@@ -4,21 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Sweets per Bag Checker</title>
+    <link rel="stylesheet" href="./SweetsStyling.css">
 </head>
 <body>
     <script id="InputSweet">
         function InputSweet(SweetCount) {
-            SweetCount = document.getElementById("how many sweets? ").value;
+            SweetCount = document.getElementById("howManySweets?").value;
             return parseInt(SweetCount);}
     </script>
     <script id="InputBag">
         function InputBag(BagCount) {
-            BagCount = document.getElementById("how many bags? ").value;
+            BagCount = document.getElementById("howManyBags?").value;
             return parseInt(BagCount);}
     </script>
-    <input id="how many bags? " type="number" placeholder="How many bags? ">
-    <input id="how many sweets? " type="number" placeholder="How many sweets? ">
-    <button onclick="DoesItWork()">How many bags?</button>
+        <input id="howManyBags?" type="number" placeholder="How many bags? ">
+        <input id="howManySweets?" type="number" placeholder="How many sweets? ">
+        <button id="DoesItWorkButton" onclick="DoesItWork()">How many bags?</button>
     <script>
         function DoesItWork() {
             let SweetCount = InputSweet();
