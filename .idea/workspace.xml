@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48caa393-4fc7-4ce7-b83e-cb353bb82d6a" name="Changes" comment="begun quicksort">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number of sweets practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/Number of sweets practice.html" afterDir="false" />
-    </list>
+    <list default="true" id="48caa393-4fc7-4ce7-b83e-cb353bb82d6a" name="Changes" comment="Made a practice website" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +103,7 @@
       <workItem from="1757368828552" duration="204000" />
       <workItem from="1757704549030" duration="1333000" />
       <workItem from="1758013039909" duration="1660000" />
-      <workItem from="1758017074364" duration="15869000" />
+      <workItem from="1758017074364" duration="16658000" />
     </task>
     <task id="LOCAL-00001" summary="begun quicksort">
       <option name="closed" value="true" />
@@ -132,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758043635499</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Made a practice website">
+      <option name="closed" value="true" />
+      <created>1758045754096</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758045754096</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +159,7 @@
     <MESSAGE value="doing some practice work" />
     <MESSAGE value="I DID SOMETHING" />
     <MESSAGE value="begun quicksort" />
-    <option name="LAST_COMMIT_MESSAGE" value="begun quicksort" />
+    <MESSAGE value="Made a practice website" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made a practice website" />
   </component>
 </project>
