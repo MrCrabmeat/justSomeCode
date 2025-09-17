@@ -9,17 +9,27 @@
 <body>
     <script id="InputSweet">
         function InputSweet(SweetCount) {
-            SweetCount = document.getElementById("howManySweets?").value;
+            SweetCount = document.getElementById("howManySweets").value;
             return parseInt(SweetCount);}
     </script>
     <script id="InputBag">
         function InputBag(BagCount) {
-            BagCount = document.getElementById("howManyBags?").value;
+            BagCount = document.getElementById("howManyBags").value;
             return parseInt(BagCount);}
     </script>
-        <input id="howManyBags?" type="number" placeholder="How many bags? ">
-        <input id="howManySweets?" type="number" placeholder="How many sweets? ">
-        <button id="DoesItWorkButton" onclick="DoesItWork()">How many bags?</button>
+    <div class="container">
+        <div class="container-box">
+            <div class="container-head">
+                <input id="howManyBags" type="number" placeholder="How many bags? ">
+                <input id="howManySweets" type="number" placeholder="How many sweets? ">
+                <button id="DoesItWorkButton" onclick="DoesItWork()">How many bags?</button>
+            </div>
+            <div class="container-body">
+                <div id="result"></div>
+                <div id="verdict"></div>
+            </div>
+        </div>
+    </div>
     <script>
         function DoesItWork() {
             let SweetCount = InputSweet();
@@ -44,7 +54,6 @@
 
         }
     </script>
-    <div id="result"></div>
-    <div id="verdict"></div>
+
 </body>
 </html>
