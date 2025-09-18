@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48caa393-4fc7-4ce7-b83e-cb353bb82d6a" name="Changes" comment="Made a practice website">
-      <change afterPath="$PROJECT_DIR$/loginPage/LoginPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginPage/LoginPageCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classwokr/CssTutorial.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classwokr/CssTutorial.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +60,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.CssTutorial.html.executor": "Run",
     "JavaScript Debug.LoginPage.html.executor": "Run",
     "JavaScript Debug.Number of sweets practice.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -76,6 +77,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -122,7 +124,8 @@
       <workItem from="1758091685970" duration="5000" />
       <workItem from="1758116501246" duration="811000" />
       <workItem from="1758128472080" duration="1110000" />
-      <workItem from="1758137551587" duration="4700000" />
+      <workItem from="1758137551587" duration="4710000" />
+      <workItem from="1758190119003" duration="4645000" />
     </task>
     <task id="LOCAL-00001" summary="begun quicksort">
       <option name="closed" value="true" />
@@ -188,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758141156960</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Made a practice website">
+      <option name="closed" value="true" />
+      <created>1758144548020</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758144548020</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

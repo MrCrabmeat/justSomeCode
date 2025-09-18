@@ -1,0 +1,42 @@
+body{background-image: url("./orange_background.jpg");
+    background-repeat: repeat;
+    background-size: cover}
+
+.container{
+    font-family: Verdana, sans-serif ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(200, 200, 200, 0.50);
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    gap: 2px;
+}
+.Login{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+
+}
+#header{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(110, 110, 120);
+}
+
+input{
+    border: rgba(110, 110, 120, 0.4) solid 2px;
+    background-color: rgba(110, 110, 120, 0.2);
+    color: whitesmoke;
+}
+.AlternativeOptions {
+    display: flex;
+    font-size: 8px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
