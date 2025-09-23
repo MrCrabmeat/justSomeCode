@@ -33,17 +33,18 @@ def recordDivide():
 def minimumLength(keys):
     for KeyLength in keys:
         if len(KeyLength) < MIN_KEY_LENGTH:
-            print("Too short key:", KeyLength)
+            print("Invalid Key")
     return True
+
 
 def checkSignals(signals):
     for SignalLength in signals:
         if SignalLength > MAX_SIGNAL:
-            print("Signal to high:", s)
+            print("Invalid Signal")
         elif SignalLength < MIN_SIGNAL:
-            print("Signal too low", s)
+            print("Invalid Signal")
         else:
-            print("Signal OK => " + str(s))
+            pass
 
 
 
