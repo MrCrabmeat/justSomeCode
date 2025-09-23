@@ -43,8 +43,7 @@ def mainMenu():
         case 5:
             exit
         case _:
-            print("please input a valid expression")
-            mainMenu()
+            exit
 
 
 def ViewTodo():
